@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section id="clock"></section>
+    </header>
+    <section class ='password'>
+        <p> Número de caracteres de la contraseña:
+            <input type="number" id="passwordLength" placeholder = 'Introduce la longitud de la contraseña' name="length" min="12" max="50" >
+            <button id=btnGeneratePassword>
+                Generar contraseña</button>
+        <div id='generatedPassword'></div> <br><br><br>
+        </p>
+    </section>
+    <section class ='links'>
+        <div class='linkSaver'> </div>
+        <input type="text" id="linkName" placeholder='Nombre del enlace: '> <br><br>
+        <input type="text" id="URL" placeholder='Introduce la URL: '>
+        <button id = 'addLink' onclick = "generateLink()">Añadir link </button>
+        <p id = 'showURL'></p>
+        </div>
+    </section>
+</body>
+<script src="./clock.js"></script>
+<script src="./password.js"></script>
+<script src="./links.js"></script>
+
+
+</html>

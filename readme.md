@@ -87,7 +87,7 @@ Crea una página que tendrá lo siguiente:
 - Dale estilo con CSS
 
 ### ¿Qué usaremos?
-- `CreateElement`, `appedChild`, ... o directamente un template con `innerHTML`.
+- `CreateElement`, `appendChild`, ... o directamente un template con `innerHTML`.
 - `LocalStorage` para generar persistencia y guardar esos datos.
 
 ### PISTAS Y CONSEJOS
